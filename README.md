@@ -1,6 +1,16 @@
 # zipmex test
+
+
 ```bash
-# install dependencies
+
+
+##  1. Clone the project
+
+
+git clone git@github.com:notewachirwait/zipmex-test.git
+
+
+## 2. install dependencies
 $ npm install
 
 # cypress run open mode
