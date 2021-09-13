@@ -14,7 +14,7 @@ describe('Create markdown table', () => {
       ]);
     });
     rows.unshift(columns);
-    cy.writeFile('cypress/log/result.txt', markdownTable(rows)); 
+    cy.writeFile('cypress/log/result.txt', markdownTable(rows),{align: ['l', 'c', 'r']}); 
     });
   });
 });
