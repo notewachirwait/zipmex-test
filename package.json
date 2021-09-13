@@ -1,0 +1,25 @@
+{
+  "name": "zipmex-test",
+  "version": "1.0.0",
+  "description": "```bash # install dependencies $ npm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-cypress":"cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notewachirwait/zipmex-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notewachirwait/zipmex-test/issues"
+  },
+  "homepage": "https://github.com/notewachirwait/zipmex-test#readme",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "eslint-plugin-cypress": "^2.11.3",
+    "markdown-table": "^3.0.1"
+  }
+}
