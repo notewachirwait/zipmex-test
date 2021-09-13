@@ -1,4 +1,4 @@
-# finance-rabbit-test
+# zipmex test
 ```bash
 # install dependencies
 $ npm install
