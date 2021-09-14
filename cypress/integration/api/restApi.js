@@ -14,7 +14,8 @@ describe('Create markdown table', () => {
       ]);
     });
     rows.unshift(columns);
-    cy.writeFile('cypress/log/result.txt', markdownTable(rows),{align: ['l', 'c', 'r']}); 
+    cy.writeFile('cypress/log/result.txt', 'Zipmex market cap\n'); 
+    cy.writeFile('cypress/log/result.txt', markdownTable(rows), { flag: 'a+' }); 
     });
   });
 });
