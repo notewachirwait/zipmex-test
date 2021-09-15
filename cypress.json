@@ -6,7 +6,7 @@
 	"requestTimeout": 40000,
 	"responseTimeout": 40000,
 	"chromeWebSecurity": false,
-    "baseUrl": "https://staging-finance.rabbitinternet.com",
+    "baseUrl": "https://trade.zipmex.com",
 	"retries": {
 		"runMode": 2,
 		"openMode": 1
