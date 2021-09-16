@@ -5,8 +5,8 @@
 	"defaultCommandTimeout": 15000,
 	"requestTimeout": 40000,
 	"responseTimeout": 40000,
+	"baseUrl":"https://trade.zipmex.com",
 	"chromeWebSecurity": false,
-    "baseUrl": "https://trade.zipmex.com",
 	"retries": {
 		"runMode": 2,
 		"openMode": 1
