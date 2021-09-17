@@ -26,6 +26,9 @@ $ npm run test-cypress-headless
 
 <img width="796" alt="Screen Shot 2564-09-17 at 09 55 37" src="https://user-images.githubusercontent.com/86100663/133717388-7c3d0a35-f034-456d-be3f-01693e8b6995.png">
 
+<img width="251" alt="Screen Shot 2564-09-17 at 10 15 53" src="https://user-images.githubusercontent.com/86100663/133718601-064bbe58-1c29-4fc8-a1cf-c2e848d849f0.png">
+
+
 2.RESTful API 
     You can check the log result.txt on folder log when you run the restApi.test.js
 
