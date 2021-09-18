@@ -4,7 +4,7 @@ Cypress.Commands.add('tradeBuySide', (percentage, amount) => {
 		cy.get(selector.bidSideOrderBook).eq(3).click();
 		cy.get(selector.limitTab).click();
 		cy.get(selector.inputPrice).eq(0).invoke('val').then(originPrice => {
-    	const bestPrice = originPrice;
+		const bestPrice = originPrice;
 		// Buy side new price = price + 0.1%
 		newPrice = +bestPrice+(bestPrice*percentage)/100;
 		newPrice = parseFloat(newPrice.toFixed(4));
