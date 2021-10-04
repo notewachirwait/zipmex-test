@@ -1,2 +1,2 @@
 node_modules
-/cypress/integration/api/restApi.test.js
+cypress/log/result.txt
