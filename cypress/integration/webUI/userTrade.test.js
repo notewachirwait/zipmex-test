@@ -9,7 +9,6 @@ describe('The user trade order limit buy and sell', () => {
 	});
 	it('User trade sell order and the system can calculate Total USD correctly', () => {
 		// input percentage and amount 
-		cy.tradeSellSide(0.1,1);
-		
+		cy.tradeSellSide(0.1,1);	
 });
 });

@@ -13,6 +13,7 @@ describe('Create markdown table', () => {
         value.highest_24hr
       ]);
     });
+    
     rows.unshift(columns);
     cy.writeFile('cypress/log/result.txt', 'Zipmex market cap\n'); 
     cy.writeFile('cypress/log/result.txt', markdownTable(rows), { flag: 'a+' }); 
