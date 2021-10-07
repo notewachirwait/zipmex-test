@@ -28,15 +28,6 @@ Cypress.Commands.add('tradeBuySide', (percentage, amount) => {
 		cy.log('Origin price = '+bestPrice);
 		});
 		assert.equal(totalUsd, total);	
-	// 		if you want to see the result on console.log just uncomment
-	// 		console.log('Trade USDTUSD');
-	// 		console.log('with side = buy');
-	// 		console.log('with new price:'+newPrice);
-	// 		console.log('with amount = '+amount);
-	// 		console.log('Total (USD) = '+totalUsd);
-	// 		cy.get('@originPrice').then(bestPrice => {
-	// 		console.log('Origin price = '+bestPrice);
-	// });
 		});
 	});
 });
@@ -70,16 +61,6 @@ Cypress.Commands.add('tradeSellSide', (percentage, amount) => {
 		cy.log('Origin price = '+bestPrice);
 		});	
 		assert.equal(totalUsd, total);
-	// 		if you want to see the result on console.log just uncomment
-	
-	// 		console.log('Trade USDTUSD');
-	// 		console.log('with side = sell');
-	// 		console.log('with new price:'+newPrice);
-	// 		console.log('with amount = '+amount);
-	// 		console.log('Total (USD) = '+totalUsd);
-	// 		cy.get('@originPrice').then(bestPrice => {
-	// 		console.log('Origin price = '+bestPrice);
-	// });	
 		});
 	});	
 });
