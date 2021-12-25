@@ -14,10 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install dependencies
-        working-directory: ./api
         run: npm install
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          working-directory: ./api
           headless: true
