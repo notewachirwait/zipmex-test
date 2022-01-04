@@ -2,7 +2,8 @@ import { markdownTable } from "markdown-table";
 
 describe("Create markdown table", () => {
   it("Must return a markdown table format correctly", () => {
-    cy.log(Cypress.env("TEST"));
+    cy.log("test::::", Cypress.env("TEST"));
+
     cy.request("GET", "https://public-api.zipmex.net/api/v1.0/summary").then(
       (resp) => {
         const rows = [];
